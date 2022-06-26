@@ -32,9 +32,9 @@ env:
   # See https://github.com/redhat-actions/oc-login#readme for how to retrieve these values.
   # To get a permanent token, refer to https://github.com/redhat-actions/oc-login/wiki/Using-a-Service-Account-for-GitHub-Actions
   PROJECT_ID:   ${{ secrets.GKE_PROJECT }}        
-  GKE_CLUSTER:  gke1                                # TODO: update to cluster name
-  GKE_ZONE:     us-west1-a                          # TODO: update to cluster zone
-  DOMAIN:       test.dev                            # TODO: update to domain name
+  GKE_CLUSTER:  crago-gke2                          # TODO: update to cluster name
+  GKE_ZONE:     us-central1-c                       # TODO: update to cluster zone
+  DOMAIN:       ragzcloud.com                       # TODO: update to domain name
 
   # 🖊️ EDIT to change the helm registry settings.
   # Registries such as Jfrog, GHCR, Quay.io, and Docker Hub are supported.
